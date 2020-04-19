@@ -39,7 +39,7 @@ def over?(board)
 
 def winner(board)
 #binding.pry 
-if won?(board) && board[won?(board)[0]] != nil
+if won?(board)
     board[won?(board)[0]]
 
 else 
